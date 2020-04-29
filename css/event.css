@@ -1,0 +1,33 @@
+.card p a i {
+	font-size: 16px;
+	margin: 5px;
+}
+
+.custom-select {
+  display: inline-block;
+  width: 50%;
+  color: black;
+  border: 1px solid #ced4da;
+}
+
+.custom-select:focus {
+  border-color: #151515;
+  outline: none;
+  box-shadow: none;
+}
+
+.custom-select:focus::-ms-value {
+  color: black;
+  background-color: #fff;
+}
+
+.custom-select:disabled {
+  color: grey;
+  background-color: black;
+}
+
+@media (max-width: 990px) {
+	.custom-select {
+		width: 100%;
+	}
+}
